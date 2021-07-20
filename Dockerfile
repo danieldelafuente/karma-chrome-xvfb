@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:14-alpine
 
 # Add Chrome sources and PGP keys
 RUN echo "deb http://dl.google.com/linux/chrome/deb/ stable main" | tee -a /etc/apt/sources.list && \
